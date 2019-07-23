@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Exercises</title>
 </head>
 <body>
+
+	<!-- 3. How many object notation do you know? Please write the code in Sublime and explain it to your pair partner? -->
+	<script>
+		
+	var animal = new Object();
+	console.log(animal)
+
+	animal.name="Susi";
+	animal.species="endangered";
+	animal.age=2;
+	animal.race="Dobermann";
+	animal.Sentence=function() {
+		return this.name + " is an " + this.species + " " + this.race + " and " + this.age + " years old.";
+	};
+	console.log(animal.Sentence());
+
+	</script>
 
 </body>
 </html>
