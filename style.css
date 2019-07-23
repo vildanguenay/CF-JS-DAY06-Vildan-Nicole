@@ -7,5 +7,47 @@ body {
 
 header {
 	background-color: black;
+	display: flex;
+	justify-content: space-between;
 }
-
+#logo {
+	width: 15%;
+	height: 5%;
+	margin: 2rem 0 2rem 2rem;
+}
+#banner {
+	margin: 2rem 2rem 2rem 0;
+}
+nav {
+	background-color: darkgrey;
+}
+li {
+	text-decoration: none;
+	color: white;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+.ourCars {
+	text-align: center;
+	/* display: flex;
+	justify-content: center; */
+}
+.collection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+img {
+	width: 300px;
+	height: auto;
+	padding:  2rem;
+	background-color: grey;
+}
+.text {
+	margin-top: 0;
+	background-color: darkgrey;
+	color: white;
+	height: 2rem;
+}
