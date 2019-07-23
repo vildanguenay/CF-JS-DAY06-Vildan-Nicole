@@ -5,6 +5,7 @@
 </head>
 <body>
 
+<h3>Part 1 of Basic</h3>
 <script>
 	var car = {
 	name: "Volkswagen",
@@ -20,6 +21,7 @@
 console.log(car.sentence());
 </script>
 
+<h3>Part 2 of Basic</h3>
 <script>
 	function car(name, model) {
 		this.name = name,
@@ -37,6 +39,41 @@ console.log(car.sentence());
 
 	// console.log(car3);
 	document.write(car3.sentence());
+
+</script>
+
+<h3>Part 3 of Basic</h3>
+<script>
+	function car(name, model) {
+		this.name = name,
+		this.model = model,
+		this.sentence = function() {
+			return this.name + " " + this.model;
+		}
+	}
+
+	car.prototype.name = "Volkswagen";
+	car.prototype.model = "GTD";
+
+	console.log(car.prototype.name, car.prototype.model);
+
+</script>
+
+<h3>Part 4 of Basic</h3>
+<script>
+	class car {
+		constructor(name, model) {
+			this.name = name;
+			this.model = model;
+		}
+
+		sentence() {
+			return this.name + " " + this.model;
+		}
+	}
+
+	var car1 = new car ("Volkswagen", "GTD");
+	console.log(car1.sentence());
 
 </script>
 </body>
