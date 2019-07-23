@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic 1</title>
+</head>
+<body>
+
+<script>
+	var car = {
+	name: "Volkswagen",
+	model: "GTD",
+	makeYear: 2015,
+	color: "blue",
+	fuelType: "Diesel", 
+	sentence: function(){
+		return this.name + " " + this.model
+	}
+}
+
+console.log(car.sentence());
+</script>
+
+<script>
+	function car(name, model) {
+		this.name = name,
+		this.model = model,
+		this.sentence = function() {
+			return this.name + " " + this.model;
+		}
+	}
+
+	var car1 = new car("BMW", "GTA");
+	var car2 = new car ("Porsche", "Cayenne");
+	var car3 = new car("VW", "Golf");
+	var car4 = new car ("Nissan", "Pathfinder");
+	var car5 = new car("Toyota", "Prius");
+
+	// console.log(car3);
+	document.write(car3.sentence());
+
+</script>
+</body>
+</html>
