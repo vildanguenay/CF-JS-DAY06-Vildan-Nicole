@@ -1,0 +1,64 @@
+var cars = [{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  }, {
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Volvo",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  },{
+  "carName" : "Tesla",
+  "carModel" : "Model 3",
+  "carMakeYear" : "2018",
+  "carColor" : "white",
+  "carPrice" : "25000",
+  "carImage" : "tesla.jpg"
+  }]

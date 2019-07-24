@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Intermediate: Car Shop</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<img id="logo" src="carshop.jpg" alt="Car shop logo">
+		<img id="banner" src="carshop2.jpeg" alt="Car shop banner">
+	</header>
+
+	<nav>
+		<ul>
+			<li>Navigation</li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="headline">
+			<h1 class="ourCars">Our Cars</h1>
+		</div>
+
+		<div class="collection">
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>
+			<figure>
+				<img name="pic" src="tesla.jpg" alt="Tesla model 3">
+				<figcaption class="text">Tesla Model 3</ficaption>
+			</figure>	
+		</div>
+		
+		
+	
+	</main>
+
+	<footer>
+		<h4>Car shop - 2019</h4>
+	</footer>
+	<script>
+		document.body.onload = addElement;
+
+function addElement () { 
+  // erstelle ein neues div Element
+  // und gib ihm etwas Inhalt
+  var newDiv = document.createElement("div"); 
+  var newContent = document.createTextNode("Hi there and greetings!"); 
+  newDiv.appendChild(newContent); // füge den Textknoten zum neu erstellten div hinzu.
+
+  // füge das neu erstellte Element und seinen Inhalt ins DOM ein
+  var currentDiv = document.getElementById("div1"); 
+  document.body.insertBefore(newDiv, currentDiv); 
+}
+		document.getElementByName("pic").addEventListener("click", addElement);
+
+		// function displayDiv() {
+  // 		document.getElementClassName("pic").innerHTML = Date();
+
+		
+	</script>
+</body>
+</html>

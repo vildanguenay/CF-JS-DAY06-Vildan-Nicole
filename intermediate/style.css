@@ -14,9 +14,11 @@ header {
 	width: 15%;
 	height: 5%;
 	margin: 2rem 0 2rem 2rem;
+	padding: 0;
 }
 #banner {
 	margin: 2rem 2rem 2rem 0;
+	padding: 0;
 }
 nav {
 	background-color: darkgrey;
@@ -44,10 +46,23 @@ img {
 	height: auto;
 	padding:  2rem;
 	background-color: grey;
+	display: block;  /*to remove white lin between img and figcaption*/
+	vertical-align: top;
 }
 .text {
 	margin-top: 0;
 	background-color: darkgrey;
 	color: white;
 	height: 2rem;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+figcaption{
+	margin-top: 0;
+}
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
 }
